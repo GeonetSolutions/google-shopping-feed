@@ -1,9 +1,9 @@
 <?php
 
-namespace LukeSnowden\GoogleShoppingFeed;
+namespace HushDigital\GoogleShoppingFeed;
 
 use SimpleXMLElement;
-use LukeSnowden\GoogleShoppingFeed\Item;
+use HushDigital\GoogleShoppingFeed\Item;
 use Gregwar\Cache\Cache;
 
 class Feed

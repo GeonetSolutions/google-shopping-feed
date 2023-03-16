@@ -19,7 +19,7 @@ How to install with composer.
 Example of Google feed generation.
 
 ```php
-use LukeSnowden\GoogleShoppingFeed\Containers\GoogleShopping;
+use HushDigital\GoogleShoppingFeed\Containers\GoogleShopping;
 
 GoogleShopping::title('Test Feed');
 GoogleShopping::link('http://example.com/');

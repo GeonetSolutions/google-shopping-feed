@@ -1,8 +1,8 @@
 <?php
 
-namespace LukeSnowden\GoogleShoppingFeed\Containers;
+namespace HushDigital\GoogleShoppingFeed\Containers;
 
-use LukeSnowden\GoogleShoppingFeed\Feed;
+use HushDigital\GoogleShoppingFeed\Feed;
 
 class GoogleShopping
 {

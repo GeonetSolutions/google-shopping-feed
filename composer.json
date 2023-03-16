@@ -1,13 +1,17 @@
 {
-    "name": "lukesnowden/google-shopping-feed",
+    "name": "hush-digital/google-shopping-feed",
     "description": "Google Shopping Feed API",
-    "homepage": "https://github.com/lukesnowden/google-shopping-feed",
+    "homepage": "https://github.com/hush-digital/google-shopping-feed",
     "license": "MIT",
     "keywords" : ["Google","Shopping","Google Shopping Feed","Feed","API"],
     "authors": [
         {
             "name": "Luke Snowden",
             "email": "luke@sno.wden.co.uk"
+        },
+        {
+            "name": "Chris Thompson",
+            "email": "chris@hush.digital"
         }
     ],
     "require": {
@@ -16,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "LukeSnowden\\GoogleShoppingFeed": "src/"
+            "HushDigital\\GoogleShoppingFeed": "src/"
         }
     },
     "minimum-stability": "dev"

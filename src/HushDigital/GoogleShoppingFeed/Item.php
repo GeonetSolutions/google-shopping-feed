@@ -1,10 +1,10 @@
 <?php
 
-namespace LukeSnowden\GoogleShoppingFeed;
+namespace HushDigital\GoogleShoppingFeed;
 
-use LukeSnowden\GoogleShoppingFeed\Node;
-use LukeSnowden\GoogleShoppingFeed\Containers\GoogleShopping;
-use LukeSnowden\GoogleShoppingFeed\Exceptions\MissingIdentifierException;
+use HushDigital\GoogleShoppingFeed\Node;
+use HushDigital\GoogleShoppingFeed\Containers\GoogleShopping;
+use HushDigital\GoogleShoppingFeed\Exceptions\MissingIdentifierException;
 
 class Item
 {

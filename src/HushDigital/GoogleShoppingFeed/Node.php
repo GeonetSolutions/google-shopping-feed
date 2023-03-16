@@ -1,6 +1,6 @@
 <?php
 
-namespace LukeSnowden\GoogleShoppingFeed;
+namespace HushDigital\GoogleShoppingFeed;
 
 class Node
 {

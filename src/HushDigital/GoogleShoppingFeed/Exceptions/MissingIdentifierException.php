@@ -1,6 +1,6 @@
 <?php
 
-namespace LukeSnowden\GoogleShoppingFeed\Exceptions;
+namespace HushDigital\GoogleShoppingFeed\Exceptions;
 
 use Exception;
 
