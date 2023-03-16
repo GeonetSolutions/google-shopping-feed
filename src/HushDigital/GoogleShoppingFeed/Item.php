@@ -322,14 +322,18 @@ class Item
      * @param $cost
      * @param null $region
      */
-    public function shipping($code, $service, $cost, $region = null)
+    public function shipping($code, $service, $cost, $region = null, $postal_code = null)
     {
         $node = new Node('shipping');
         $value = "<g:country>{$code}</g:country><g:service><![CDATA[{$service}]]></g:service><g:price>{$cost}</g:price>";
 
         if($region) {
-          $value .= "<g:region>{$region}</g:region>";
-        }
+            $value .= "<g:region>{$region}</g:region>";
+          }
+
+          if($postal_code) {
+            $value .= "<g:postal_code>{$postal_code}</g:postal_code>";
+          }
 
         if (! isset($this->nodes['shipping'])) {
             $this->nodes['shipping'] = array();
